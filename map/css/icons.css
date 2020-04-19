@@ -1,0 +1,36 @@
+.icon {
+	display: inline-block;
+	margin: 2px;
+	height: 16px;
+	width: 16px;
+	background-color: #ccc;
+}
+
+/* ICONS */
+.icon-mangiare {
+	background: url('../images/icons/restaurant.png') center center no-repeat;
+}
+.icon-dormire {
+	background: url('../images/icons/hotel.png') center center no-repeat;
+}
+.icon-comprare {
+	background: url('../images/icons/shopping.png') center center no-repeat;
+}
+.icon-percorsi {
+	background: url('../images/icons/tracks.png') center center no-repeat;
+}
+
+/* MARKERS */
+.leaflet-marker-icon {
+	padding: 2px;
+	text-align: center;
+}
+.marker-mangiare {
+	background: url('../images/markers/mangiare.png') center center no-repeat;
+}
+.marker-dormire {
+	background: url('../images/markers/dormire.png') center center no-repeat;
+}
+.marker-comprare {
+	background: url('../images/markers/comprare.png') center center no-repeat;
+}
