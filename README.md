@@ -1,3 +1,3 @@
-Project for the hiking trails map published on https://www.sentieriamerini.it/#mappa.
+Project for the hiking trails map published on new istitutional site https://www.sentieriamerini.it/#mappa.
 
-The map use the Leaflet library (http://leafletjs.com/) and the PanelLayers plugin (http://labs.easyblog.it/maps/leaflet-panel-layers/). 
+The map use the Leaflet library (https://leafletjs.com/) and the PanelLayers plugin (hhttps://github.com/stefanocudini/leaflet-panel-layers). 
