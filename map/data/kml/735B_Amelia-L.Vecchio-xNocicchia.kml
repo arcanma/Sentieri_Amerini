@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>GPS device</name>
+    <snippet>Created sab set 25 14:40:51 2021 GMT</snippet>
+    <LookAt>
+      <longitude>12.418802</longitude>
+      <latitude>42.558417</latitude>
+      <range>1476.452019</range>
+    </LookAt>
+    <!-- Normal track style -->
+    <Style id="track_n">
+      <IconStyle>
+        <scale>.5</scale>
+        <Icon>
+          <href>https://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <!-- Highlighted track style -->
+    <Style id="track_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="track">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#track_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#track_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <!-- Normal waypoint style -->
+    <Style id="waypoint_n">
+      <IconStyle>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <!-- Highlighted waypoint style -->
+    <Style id="waypoint_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#waypoint_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#waypoint_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="lineStyle">
+      <LineStyle>
+        <color>99ffac59</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>Tracks</name>
+      <Folder>
+        <name>735B_Amelia - Lago Vecchio (Per Nocicchia)</name>
+        <snippet/>
+        <description>
+<![CDATA[<table>
+<tr><td><b>Distance</b> 5240.2 ft </td></tr>
+<tr><td><b>Min Alt</b> 859.580 ft </td></tr>
+<tr><td><b>Max Alt</b> 1099.081 ft </td></tr>
+</table>]]>
+</description>
+        <Placemark>
+          <name>Path</name>
+          <styleUrl>#lineStyle</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+12.416698,42.553566,330.00
+12.416747,42.553572,330.00
+12.416769,42.553557,330.00
+12.416809,42.553564,330.00
+12.417451,42.553702,332.00
+12.417546,42.553724,332.00
+12.417605,42.553744,332.00
+12.417651,42.553772,332.00
+12.417724,42.553833,333.00
+12.417893,42.554033,333.00
+12.417896,42.554058,333.00
+12.417864,42.554200,334.00
+12.417712,42.554286,335.00
+12.417690,42.554351,335.00
+12.417712,42.554388,334.00
+12.417722,42.554411,334.00
+12.417961,42.554356,333.00
+12.418074,42.554345,332.00
+12.418082,42.554373,332.00
+12.418091,42.554402,332.00
+12.418100,42.554423,332.00
+12.418100,42.554423,332.00
+12.418189,42.554773,330.00
+12.418243,42.555053,328.00
+12.418247,42.555082,328.00
+12.418260,42.555253,327.00
+12.418257,42.555359,325.00
+12.418246,42.555497,322.00
+12.418213,42.555617,319.00
+12.418150,42.555706,317.00
+12.418138,42.555772,317.00
+12.417913,42.556200,315.00
+12.417755,42.556402,313.00
+12.417707,42.556520,313.00
+12.417711,42.556774,311.00
+12.417680,42.556916,310.00
+12.417627,42.557037,308.00
+12.417655,42.557179,307.00
+12.417642,42.557467,310.00
+12.417569,42.557766,304.00
+12.417574,42.557995,300.00
+12.417560,42.558392,303.00
+12.417602,42.558366,302.00
+12.417656,42.558233,301.00
+12.417706,42.558090,298.00
+12.417762,42.558000,297.00
+12.417824,42.557905,297.00
+12.417902,42.557829,296.00
+12.417986,42.557767,296.00
+12.418090,42.557739,294.00
+12.418165,42.557750,292.00
+12.418229,42.557779,292.00
+12.418591,42.557942,277.00
+12.418914,42.558063,272.00
+12.419335,42.558271,266.00
+12.419443,42.558312,266.00
+12.419739,42.558377,264.00
+12.419934,42.558450,264.00
+12.420066,42.558520,265.00
+12.420236,42.558729,264.00
+12.420288,42.558789,264.00
+12.420368,42.558887,264.00
+12.420494,42.559030,264.00
+12.420130,42.559241,262.00
+12.419724,42.559501,263.00
+12.419367,42.559733,263.00
+12.419286,42.559780,263.00
+12.419249,42.559831,263.00
+12.419242,42.559875,263.00
+12.419276,42.560031,264.00
+12.419248,42.560057,264.00
+12.418796,42.560171,262.00
+12.418780,42.560175,262.00
+12.418785,42.560213,262.00
+12.418760,42.560268,262.00
+12.418754,42.560327,262.00
+12.418799,42.560418,262.00
+12.418900,42.560777,264.00
+12.418922,42.560844,264.00
+12.419102,42.561055,265.00
+12.419173,42.561174,267.00
+12.419462,42.561561,270.00
+12.419614,42.561779,271.00
+12.419730,42.561963,274.00
+12.420196,42.562438,278.00
+12.420520,42.562756,282.00
+12.420731,42.563104,286.00
+12.420907,42.563277,286.00
+</coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>
